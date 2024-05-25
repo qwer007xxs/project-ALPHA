@@ -26,17 +26,16 @@
 **ตั้งค่าก่อน run program**
 --ตัวที่ผม test จะเป็น phpmyadmin 
 1.ต้อง set ค่า database ก่อน ตัวอย่างเช่น
-  -- สร้างฐานข้อมูลชื่อ user ถ้ายังไม่มี
+```
 	CREATE DATABASE IF NOT EXISTS user;
-   -- ใช้ฐานข้อมูล user
 	USE user;
-   -- สร้างตาราง user_log ถ้ายังไม่มี
 	CREATE TABLE IF NOT EXISTS user_log (
 	id INT AUTO_INCREMENT PRIMARY KEY,
 	user VARCHAR(255) NOT NULL,
 	data TEXT NOT NULL,
 	log_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 	);
+```
 
 3. ตั้งค่า connect database ก่อน
 	conn = mysql.connector.connect(host="host", user="host", password=password", database="database")
