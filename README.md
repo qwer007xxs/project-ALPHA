@@ -25,7 +25,7 @@
 - วิเคราะห์การตอบสนองของโปรแกรม Antivirus และ Windows Defender ต่อไวรัสที่สร้างขึ้น
 - บันทึกและวิเคราะห์ข้อมูลที่ได้จากการตรวจจับ การกักกัน และการกำจัดไวรัส
   
-**ตั้งค่าก่อน run program**
+**วิธี run program**
 --ตัวที่ผม test จะเป็น phpmyadmin 
 1.ต้อง set ค่า database ก่อน ตัวอย่างเช่น
 ```
@@ -39,8 +39,10 @@
 	);
 ```
 
-3. ตั้งค่า connect database ก่อน
-	conn = mysql.connector.connect(host="host", user="host", password=password", database="database")
+3. ตั้งค่า connect database ที่บรรทัด 102
+```
+ conn = mysql.connector.connect(host="host", user="host", password=password", database="database")
+ ```
 
 5. หากตองการ run program ต้องปลี่ยนนามสกุล file เป็น tab.py เป็น tab.pdf และ hidden.bat เป็น hidden.pdf
 
