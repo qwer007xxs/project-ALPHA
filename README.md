@@ -19,14 +19,13 @@
 
 2.การทดสอบไวรัสในสภาพแวดล้อมที่ควบคุม
 - ทดสอบไวรัสในสภาพแวดล้อมทั้ง Windows 10 และ Windows 11
-- ตรวจสอบการทำงานของไวรัสและผลกระทบที่เกิดขึ้นในระบบ
+- database SQL ที่จะใช้ test คือ phpmyadmin 
 
 3.การวิเคราะห์การตอบสนองของโปรแกรมป้องกันไวรัส
 - วิเคราะห์การตอบสนองของโปรแกรม Antivirus และ Windows Defender ต่อไวรัสที่สร้างขึ้น
 - บันทึกและวิเคราะห์ข้อมูลที่ได้จากการตรวจจับ การกักกัน และการกำจัดไวรัส
   
 **วิธี run program**
---ตัวที่ผม test จะเป็น phpmyadmin 
 1.ต้อง set ค่า database ก่อน ตัวอย่างเช่น
 ```
 	CREATE DATABASE IF NOT EXISTS user;
@@ -43,8 +42,7 @@
 ```
  conn = mysql.connector.connect(host="host", user="host", password=password", database="database")
  ```
-
-5. หากตองการ run program ต้องปลี่ยนนามสกุล file เป็น tab.py เป็น tab.pdf และ hidden.bat เป็น hidden.pdf
+4. หากตองการ run program ต้องปลี่ยนนามสกุล file เป็น tab.py เป็น tab.pdf และ hidden.bat เป็น hidden.pdf
 
 **หลักการทำงานของโปรแกรม**
 1. อันดับแรกโปรแกรมจะทำการล็อคหน้าจอของผู้ใช้ 
