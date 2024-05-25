@@ -26,6 +26,7 @@
 - บันทึกและวิเคราะห์ข้อมูลที่ได้จากการตรวจจับ การกักกัน และการกำจัดไวรัส
   
 **วิธี run program**
+
 1.ต้อง set ค่า database ก่อน ตัวอย่างเช่น
 ```
 	CREATE DATABASE IF NOT EXISTS user;
@@ -38,11 +39,11 @@
 	);
 ```
 
-3. ตั้งค่า connect database ที่บรรทัด 102
+2. ตั้งค่า connect database ที่บรรทัด 102
 ```
  conn = mysql.connector.connect(host="host", user="host", password=password", database="database")
  ```
-4. หากตองการ run program ต้องปลี่ยนนามสกุล file เป็น tab.py เป็น tab.pdf และ hidden.bat เป็น hidden.pdf
+3. หากตองการ run program ต้องปลี่ยนนามสกุล file เป็น tab.py เป็น tab.pdf และ hidden.bat เป็น hidden.pdf
 
 **หลักการทำงานของโปรแกรม**
 1. อันดับแรกโปรแกรมจะทำการล็อคหน้าจอของผู้ใช้ 
