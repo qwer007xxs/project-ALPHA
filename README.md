@@ -1,7 +1,7 @@
 ** นี่คือ source code ที่ยังไม่ run เป็นแบบ .exe เท่านั้นจึงต้องอาศัย (click me).bat ในการทดสอบ **
 
-** หากต้องการ run แบบ exe จะต้อง compile file ที่ชื่อว่า onefile.py ใน
-https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่านั้น **
+** หากต้องการ run แบบ exe จะต้อง compile file ที่ชื่อว่า onefile.py ให้เป็น .exe 
+link: https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA**
 
 **หมายเหตุสำคัญ**
 โปรเจคนี้ถูกสร้างขึ้นเพื่อการศึกษาเท่านั้น และไม่อนุญาตให้ใช้เพื่อเจตนาร้ายอื่นๆ การนำไวรัสที่พัฒนาไปใช้ในทางที่ผิดอาจมีผลกระทบทางกฎหมายและจริยธรรมอย่างร้ายแรง
@@ -67,8 +67,8 @@ https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่
  conn = mysql.connector.connect(host="host", user="host", password=password", database="database")
  ```
 4.0 (source code)หากตองการ run program ต้องปลี่ยนนามสกุล file เป็น tab.py เป็น tab.pdf และ hidden.bat เป็น hidden.pdf
-4.1 (exe)หากตองการ run program exe จะต้อง compile file ที่ชื่อว่า onefile.py ใน 
-https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA
+4.1 (exe)หากตองการ run program exe จะต้อง compile file ที่ชื่อว่า onefile.py ให้เป็น .exe
+link: https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA
 
 **หลักการทำงานของโปรแกรม(source code)**
 1. อันดับแรกโปรแกรมจะทำการล็อคหน้าจอของผู้ใช้ 
