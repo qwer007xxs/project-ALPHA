@@ -29,6 +29,10 @@ https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่
 3.การวิเคราะห์การตอบสนองของโปรแกรมป้องกันไวรัส
 - วิเคราะห์การตอบสนองของโปรแกรม Antivirus และ Windows Defender ต่อไวรัสที่สร้างขึ้น
 - บันทึกและวิเคราะห์ข้อมูลที่ได้จากการตรวจจับ การกักกัน และการกำจัดไวรัส
+
+/!\ข้อจำกัด/!\
+ต้อง run โปรแกรม ตอนปิด google chrome เท่านั้นไม่ว่าจะเป็น source code หรือ .exe
+ไม่งั้น error permission
   
 **วิธี run program**
 1. แก้ไขโปรแกรมในโฟลเดอร์ source code
@@ -47,7 +51,9 @@ https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่
 ```
  conn = mysql.connector.connect(host="host", user="host", password=password", database="database")
  ```
-4. หากตองการ run program ต้องปลี่ยนนามสกุล file เป็น tab.py เป็น tab.pdf และ hidden.bat เป็น hidden.pdf
+4.0 (source code)หากตองการ run program ต้องปลี่ยนนามสกุล file เป็น tab.py เป็น tab.pdf และ hidden.bat เป็น hidden.pdf
+4.1 (exe)หากตองการ run program จะต้อง compile file ที่ชื่อว่า onefile.py ใน 
+https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA
 
 **หลักการทำงานของโปรแกรม**
 1. อันดับแรกโปรแกรมจะทำการล็อคหน้าจอของผู้ใช้ 
@@ -59,6 +65,8 @@ https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่
 
 **ผลลัพธ์**
 - จากกันที่นำไฟล์ของโปรแกรมเราทั้งหมดมาสแกนด้วย Third party anti-virus และของ Windows defender นั้นพบว่าไม่สามารถตรวจพบไวรัสหรือความผิดปกติใดๆ
-   แต่ถ้าหากว่าเราทำการ Export เป็นไฟล์ .exe แล้ว Windows defender จะตรวจพบ Trojan ทันที
+  แต่ถ้าหากว่าเราทำการ Export เป็นไฟล์ .exe แล้ว Windows 11 จะตรวจพบ Trojan ทันที
+  แต่ Windows 10 นั้นยังไม่พบความผิดปกติใดๆ
+  
 - พบว่าคุกกี้ที่ตกอยู่ในความเสี่ยงนั้นคือคุกกี้ของ Facebook เนื่องจากสามารถทำการ login โดยผ่านการป้องกัน 2 ชั้นไปได้และไม่มีการแจ้งเตือนใดๆอาจรวมทั้ง Messenger 
   Instagram หรืออาจจะมีคุกกี้อื่นๆอีกที่ตกอยู่ในความเสี่ยง ขณะนี้ผมกำลังวิจัยว่าคุกกี้นั้นสามารถใช้เพื่อ login เข้าอีเมลได้หรือไม่
