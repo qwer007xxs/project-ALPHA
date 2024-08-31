@@ -1,5 +1,5 @@
 ***** นี่คือ source code ที่ยังไม่runเป็นแบบ .exe เท่านั้นจึงต้องอาศัย (click me).bat ในการทดสอบ *******
-
+***** หารต้องการ run แบบ exe จะต้อง compile file ที่ชื่อว่า onefile.py เท่านั้น *******
 ***** ตั้งค่าก่อน run program *******
 --ตัวที่ผม test จะเป็น phpmyadmin 
 1.ต้อง set ค่า database ก่อน ตัวอย่างเช่น
