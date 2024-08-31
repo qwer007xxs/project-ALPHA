@@ -36,11 +36,11 @@ https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่
 
 
 **.EXE vs source code**
-.EXE
+**.EXE**
 - ไม่มี command line ในการแจ้งเตือน
 - ทำงานได้โดยที่ user ไม่สงใส
 - run ได้แค่ windows 10
-source code
+**source code**
 - ทำการซ่อนตัวอยู่ในเครื่องของผู้ใช้
 - anti-virus scan ไม่เจอ
 - มี command line run ในระหว่างการทำงาน
