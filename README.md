@@ -1,5 +1,8 @@
 ** นี่คือ source code ที่ยังไม่ run เป็นแบบ .exe เท่านั้นจึงต้องอาศัย (click me).bat ในการทดสอบ **
-** หากต้องการ run แบบ exe จะต้อง compile file ที่ชื่อว่า onefile.py ใน https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่านั้น **
+
+** หากต้องการ run แบบ exe จะต้อง compile file ที่ชื่อว่า onefile.py 
+ใน https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่านั้น **
+
 **หมายเหตุสำคัญ**
 โปรเจคนี้ถูกสร้างขึ้นเพื่อการศึกษาเท่านั้น และไม่อนุญาตให้ใช้เพื่อเจตนาร้ายอื่นๆ การนำไวรัสที่พัฒนาไปใช้ในทางที่ผิดอาจมีผลกระทบทางกฎหมายและจริยธรรมอย่างร้ายแรง
 
