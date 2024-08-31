@@ -1,1 +1,0 @@
- ตั้งค่าที่ source code ก่อนกด run
