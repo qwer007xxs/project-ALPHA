@@ -30,7 +30,7 @@ https://github.com/qwer007xxs/project-ALPHA/releases/tag/project-ALPHA เท่
 - วิเคราะห์การตอบสนองของโปรแกรม Antivirus และ Windows Defender ต่อไวรัสที่สร้างขึ้น
 - บันทึกและวิเคราะห์ข้อมูลที่ได้จากการตรวจจับ การกักกัน และการกำจัดไวรัส
 
-/!\ข้อจำกัด/!\
+**/!\ข้อจำกัด/!\**
 ต้อง run โปรแกรม ตอนปิด google chrome เท่านั้นไม่ว่าจะเป็น source code หรือ .exe
 ไม่งั้น error permission
 
