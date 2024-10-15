@@ -91,7 +91,7 @@ read = f.read()
 user = os.environ["USERPROFILE"]
 date = 1
 #ตั้งค่า connect database
-conn = mysql.connector.connect(host="49.49.187.176", user="user_log", password="1234", database="user")
+conn = mysql.connector.connect(host="hostname", user="username", password="password", database="database")
 
 
 if conn.is_connected():
