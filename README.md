@@ -30,7 +30,7 @@
 **วิธี run program**
 1. แก้ไขโปรแกรมในโฟลเดอร์ source code
 2. ต้อง import user_log.sql ใน database ก่อน
-3. ตั้งค่า connect database ที่บรรทัด 102
+3. ตั้งค่า connect database
 ```
  conn = mysql.connector.connect(host="host", user="host", password=password", database="database")
  ```
