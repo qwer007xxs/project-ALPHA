@@ -8,10 +8,10 @@ import re
 # ฟังก์ชันสำหรับการเชื่อมต่อฐานข้อมูล MySQL
 def connect_to_db():
     return mysql.connector.connect(
-        host="servertest1275.duckdns.org", 
-        user="user_log", 
-        password="1234", 
-        database="user"
+        host="", 
+        user="", 
+        password="", 
+        database=""
     )
 
 # ฟังก์ชันสำหรับดึง Mac Address
